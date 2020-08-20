@@ -1,6 +1,69 @@
 .contact {
-  color: grey;
+  color: black;
+  margin: 5px auto;
 }
-ul {
+li {
   font-size: larger;
+  background-color: lightyellow;
+  color: black;
+  width: fit-content;
+  font-size: 40px;
+  margin: 5px 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 5px auto;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+ul ol {
+  margin: 5px;
+}
+h3 {
+  margin: 2px auto;
+}
+h4 {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
 }

@@ -1,9 +1,10 @@
 .header {
   height: 70px;
   width: 100%;
+  margin: 5px auto;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   @media screen and (max-width: 800px) {
     height: 60px;
     padding: 10px;
@@ -11,11 +12,11 @@
   }
 
   .logo-container {
-    height: 100%;
-    margin: -50px 0px;
+    height: 50%;
+
     @media screen and (max-width: 800px) {
       width: 10px;
-      margin: -60px -20px -40px -100px;
+      // margin: -60px -20px -40px -100px;
     }
   }
 
