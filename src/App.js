@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Contact from "./components/contact/Contact.jsx";
 import HomePage from "./components/homePage/HomePage.jsx";
+import ShopPhotos from "./components/shopPhotos/ShopPhotos.jsx";
 // import ShopPage from "./pages/shop/ShopPage.jsx";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Header />
+          <ShopPhotos />
         </header>
         <Switch>
           <Route exact path="/" component={HomePage} />

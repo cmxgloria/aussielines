@@ -1,6 +1,44 @@
 .contact {
   color: black;
   margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex: 1;
+  margin: auto 10px;
+  @media screen and (max-width: 800px) {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+}
+.info {
+  // background-color: blue;
+  height: 300px;
+  flex: 1;
+
+  @media screen and (max-width: 800px) {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+}
+
+.history {
+  // background-color: green;
+  height: 300px;
+  flex: 1;
+  @media screen and (max-width: 800px) {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
 }
 li {
   font-size: larger;
@@ -10,19 +48,10 @@ li {
   font-size: 40px;
   margin: 5px 10px;
 }
-.info {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  margin: 5px auto;
-}
-.history {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
+
 ul ol {
   margin: 5px;
+  padding: 3px;
 }
 h3 {
   margin: 2px auto;

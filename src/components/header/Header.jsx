@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../photos/sign blue.jpg";
 import "./header.styles.scss";
 
 const Header = () => (
   <div className="header">
     <Link className="logo-container" to="/">
-      <img src="https://imgur.com/beWb5vw" alt="" />
+      <img src={logo} alt="" />
     </Link>
     <div className="options">
       <Link className="option" to="/shop">

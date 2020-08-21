@@ -12,7 +12,9 @@
   }
 
   .logo-container {
-    height: 50%;
+    background-image: url();
+    width: 200px;
+    margin: -10px -10px;
 
     @media screen and (max-width: 800px) {
       width: 10px;
