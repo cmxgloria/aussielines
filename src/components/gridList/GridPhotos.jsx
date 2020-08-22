@@ -7,6 +7,11 @@ import IconButton from "@material-ui/core/IconButton";
 // import StarBorderIcon from "@material-ui/icons/StarBorder";
 import BMG from "../shop/BMG.js";
 import toy from "../shop/toy.js";
+import toyBags from "../shop/toyBags.js";
+import canvasBags from "../shop/canvasBags.js";
+import keyrings from "../shop/keyrings.js";
+import purse from "../shop/purse.js";
+import sale from "../shop/sale.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -56,6 +61,96 @@ export default function GridPhotos() {
       <h1>Toy</h1>
       <GridList className={classes.gridList} cols={2.5}>
         {toy.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>Toy Bags</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {toyBags.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>Canvas Bags</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {canvasBags.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>Keyrings</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {keyrings.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>Purses</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {purse.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>SALE</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {sale.map((tile) => (
           <GridListTile key={tile.imageUrl}>
             <img src={tile.imageUrl} alt={tile.title} />
             <GridListTileBar
