@@ -1,5 +1,5 @@
 import React from "react";
-import { shopdata } from "../shop/shopdata.js";
+import SHOP_DATA from "../shop/shopdata.js";
 
 import "./collection-item.styles.scss";
 
