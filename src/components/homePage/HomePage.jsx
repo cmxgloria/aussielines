@@ -1,11 +1,7 @@
 import React from "react";
-import Directory from "../directory/Directory";
+// import Directory from "../directory/Directory";
 import "./homepage.styles.scss";
 
 export default function HomePage() {
-  return (
-    <div>
-      <Directory />
-    </div>
-  );
+  return <div>{/* <Directory /> */}</div>;
 }
