@@ -23,12 +23,14 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     flexWrap: "nowrap",
-    // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
     transform: "translateZ(0)",
   },
   title: {
-    color: theme.palette.primary.light,
+    color: theme.palette.primary.blue,
   },
+  // price: {
+  //   color: theme.palette.primary.blue,
+  // },
   titleBar: {
     background:
       "linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)",
@@ -47,9 +49,11 @@ export default function GridPhotos() {
             <img src={tile.imageUrl} alt={tile.title} />
             <GridListTileBar
               title={tile.title}
+              // price={tile.price}
               classes={{
                 root: classes.titleBar,
                 title: classes.title,
+                // price: classes.price,
               }}
               actionIcon={
                 <IconButton aria-label={`star ${tile.title}`}></IconButton>
@@ -58,7 +62,7 @@ export default function GridPhotos() {
           </GridListTile>
         ))}
       </GridList>
-      <h1>Toy</h1>
+      <h1>Stuff Toy</h1>
       <GridList className={classes.gridList} cols={2.5}>
         {toy.map((tile) => (
           <GridListTile key={tile.imageUrl}>

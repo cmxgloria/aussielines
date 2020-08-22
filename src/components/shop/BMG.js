@@ -1,23 +1,21 @@
 const BMG = [
   {
     id: 1,
-    title: "A1 boomerang",
+    title: "A1 boomerang $15",
     imageUrl:
-      "https://www.istockphoto.com/photo/buying-jewellery-at-queen-victoria-market-gm699961002-129575111?utm_campaign=srp_photos_inline&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fsouvenirs%2520australian%2F&utm_medium=affiliate&utm_source=pexels&utm_term=souvenirs%20australian",
+      "https://media.istockphoto.com/photos/kangaroo-soft-toy-picture-id503045098?b=1&k=6&m=503045098&s=170667a&w=0&h=9ll1tIPdMIMz0duarhGLM6wlj5jbMKw05byFRuOVr5A=",
     price: 15,
   },
   {
     id: 2,
-    title: "A2plane",
-    imageUrl:
-      "https://cbu01.alicdn.com/img/ibank/2015/523/844/2581448325_2022656010.400x400.jpg",
+    title: "A2",
+    imageUrl: "https://i.imgur.com/Ad1Lhor.jpg",
     price: 15,
   },
   {
     id: 3,
-    title: "A3tower",
-    imageUrl:
-      "https://cbu01.alicdn.com/img/ibank/2017/809/211/4310112908_170595664.400x400.jpg",
+    title: "A3",
+    imageUrl: "https://i.imgur.com/sNlBh2i.jpg",
     price: 10,
   },
   {

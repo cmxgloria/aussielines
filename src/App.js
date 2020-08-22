@@ -14,18 +14,19 @@ function App() {
     <div>
       <Router>
         <div className="App">
-          <header className="App-header">
-            <Header />
-          </header>
+          {/* <header className="App-header"> */}
+          <Header />
+          {/* </header> */}
           <ShopPhotos />
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/special" component={Special} />
             <Route path="/contact" component={Contact} />
+            <Route path="/shop" component={GridPhotos} />
           </Switch>
         </div>
       </Router>
-      <div className="collection-items">
+      <div>
         <GridPhotos />
       </div>
     </div>
