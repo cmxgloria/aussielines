@@ -8,7 +8,7 @@ const SHOP_DATA = {
         id: 1,
         name: "A1tank",
         imageUrl:
-          "https://cbu01.alicdn.com/img/ibank/2018/261/352/9384253162_2022656010.400x400.jpg",
+          "https://www.istockphoto.com/photo/buying-jewellery-at-queen-victoria-market-gm699961002-129575111?utm_campaign=srp_photos_inline&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fsouvenirs%2520australian%2F&utm_medium=affiliate&utm_source=pexels&utm_term=souvenirs%20australian",
         price: 25,
       },
       {
