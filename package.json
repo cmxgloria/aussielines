@@ -2,7 +2,7 @@
   "name": "aussielines",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://git.heroku.com/aussielines.git",
+  "homepage": "https://git.heroku.com/aussielines",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build; heroku build git.heroku.com/aussielines.git"
+    "deploy": "npm run build; heroku build git.heroku.com/aussielines"
   },
   "eslintConfig": {
     "extends": "react-app"
