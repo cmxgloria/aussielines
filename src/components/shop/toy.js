@@ -1,22 +1,21 @@
 const toy = [
   {
     id: 1,
-    title: "A1 boomerange",
-    imageUrl: "https://i.imgur.com/JD8jiOY.jpg",
+    title: "Koalas",
+    imageUrl: "https://i.imgur.com/3lPtUgS.jpg",
     price: 15,
   },
   {
     id: 2,
-    title: "A2plane",
-    imageUrl:
-      "https://cbu01.alicdn.com/img/ibank/2015/523/844/2581448325_2022656010.400x400.jpg",
+    title: "Kangaroos",
+    imageUrl: "https://i.imgur.com/neNski1.jpg",
     price: 15,
   },
   {
     id: 3,
-    title: "A3tower",
+    title: "Kangoroos",
     imageUrl:
-      "https://cbu01.alicdn.com/img/ibank/2017/809/211/4310112908_170595664.400x400.jpg",
+      "https://media.istockphoto.com/photos/kangaroo-soft-toy-picture-id503045098?b=1&k=6&m=503045098&s=170667a&w=0&h=9ll1tIPdMIMz0duarhGLM6wlj5jbMKw05byFRuOVr5A=",
     price: 10,
   },
   {

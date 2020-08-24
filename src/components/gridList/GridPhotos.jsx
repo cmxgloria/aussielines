@@ -7,7 +7,7 @@ import IconButton from "@material-ui/core/IconButton";
 // import StarBorderIcon from "@material-ui/icons/StarBorder";
 import BMG from "../shop/BMG.js";
 import toy from "../shop/toy.js";
-import toyBags from "../shop/toyBags.js";
+import souvenir from "../shop/souvenir.js";
 import canvasBags from "../shop/canvasBags.js";
 import keyrings from "../shop/keyrings.js";
 import purse from "../shop/purse.js";
@@ -42,7 +42,25 @@ export default function GridPhotos() {
 
   return (
     <div className={classes.root}>
-      <h1>Boomerang</h1>
+      <h1>SPECIAL</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {sale.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>Aboriginal & Boomerang</h1>
       <GridList className={classes.gridList} cols={2.5}>
         {BMG.map((tile) => (
           <GridListTile key={tile.imageUrl}>
@@ -62,7 +80,7 @@ export default function GridPhotos() {
           </GridListTile>
         ))}
       </GridList>
-      <h1>Stuff Toy</h1>
+      <h1>Soft Toys</h1>
       <GridList className={classes.gridList} cols={2.5}>
         {toy.map((tile) => (
           <GridListTile key={tile.imageUrl}>
@@ -80,61 +98,7 @@ export default function GridPhotos() {
           </GridListTile>
         ))}
       </GridList>
-      <h1>Toy Bags</h1>
-      <GridList className={classes.gridList} cols={2.5}>
-        {toyBags.map((tile) => (
-          <GridListTile key={tile.imageUrl}>
-            <img src={tile.imageUrl} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              classes={{
-                root: classes.titleBar,
-                title: classes.title,
-              }}
-              actionIcon={
-                <IconButton aria-label={`star ${tile.title}`}></IconButton>
-              }
-            />
-          </GridListTile>
-        ))}
-      </GridList>
-      <h1>Canvas Bags</h1>
-      <GridList className={classes.gridList} cols={2.5}>
-        {canvasBags.map((tile) => (
-          <GridListTile key={tile.imageUrl}>
-            <img src={tile.imageUrl} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              classes={{
-                root: classes.titleBar,
-                title: classes.title,
-              }}
-              actionIcon={
-                <IconButton aria-label={`star ${tile.title}`}></IconButton>
-              }
-            />
-          </GridListTile>
-        ))}
-      </GridList>
-      <h1>Keyrings</h1>
-      <GridList className={classes.gridList} cols={2.5}>
-        {keyrings.map((tile) => (
-          <GridListTile key={tile.imageUrl}>
-            <img src={tile.imageUrl} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              classes={{
-                root: classes.titleBar,
-                title: classes.title,
-              }}
-              actionIcon={
-                <IconButton aria-label={`star ${tile.title}`}></IconButton>
-              }
-            />
-          </GridListTile>
-        ))}
-      </GridList>
-      <h1>Purses</h1>
+      <h1>Pencil Cases & Coin Purses</h1>
       <GridList className={classes.gridList} cols={2.5}>
         {purse.map((tile) => (
           <GridListTile key={tile.imageUrl}>
@@ -152,9 +116,45 @@ export default function GridPhotos() {
           </GridListTile>
         ))}
       </GridList>
-      <h1>SALE</h1>
+      <h1>Shopping Bags & Backpacks</h1>
       <GridList className={classes.gridList} cols={2.5}>
-        {sale.map((tile) => (
+        {canvasBags.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>Keychains & Magnets</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {keyrings.map((tile) => (
+          <GridListTile key={tile.imageUrl}>
+            <img src={tile.imageUrl} alt={tile.title} />
+            <GridListTileBar
+              title={tile.title}
+              classes={{
+                root: classes.titleBar,
+                title: classes.title,
+              }}
+              actionIcon={
+                <IconButton aria-label={`star ${tile.title}`}></IconButton>
+              }
+            />
+          </GridListTile>
+        ))}
+      </GridList>
+      <h1>Souvenirs Collections</h1>
+      <GridList className={classes.gridList} cols={2.5}>
+        {souvenir.map((tile) => (
           <GridListTile key={tile.imageUrl}>
             <img src={tile.imageUrl} alt={tile.title} />
             <GridListTileBar
