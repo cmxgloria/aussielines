@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/aussielines/static/css/main.ea7bfd2a.chunk.css",
+    "main.js": "/aussielines/static/js/main.e8b097ae.chunk.js",
+    "main.js.map": "/aussielines/static/js/main.e8b097ae.chunk.js.map",
+    "runtime-main.js": "/aussielines/static/js/runtime-main.743e5180.js",
+    "runtime-main.js.map": "/aussielines/static/js/runtime-main.743e5180.js.map",
+    "static/js/2.1ce7ce6d.chunk.js": "/aussielines/static/js/2.1ce7ce6d.chunk.js",
+    "static/js/2.1ce7ce6d.chunk.js.map": "/aussielines/static/js/2.1ce7ce6d.chunk.js.map",
+    "index.html": "/aussielines/index.html",
+    "precache-manifest.5963e07228e6d9d94d82bdb8968b8d3c.js": "/aussielines/precache-manifest.5963e07228e6d9d94d82bdb8968b8d3c.js",
+    "service-worker.js": "/aussielines/service-worker.js",
+    "static/css/main.ea7bfd2a.chunk.css.map": "/aussielines/static/css/main.ea7bfd2a.chunk.css.map",
+    "static/js/2.1ce7ce6d.chunk.js.LICENSE.txt": "/aussielines/static/js/2.1ce7ce6d.chunk.js.LICENSE.txt",
+    "static/media/PLATE4.jpg": "/aussielines/static/media/PLATE4.da98986b.jpg",
+    "static/media/Screen Shot 2020-08-22 at 12.21.38 pm.png": "/aussielines/static/media/Screen Shot 2020-08-22 at 12.21.38 pm.e37b33e6.png",
+    "static/media/Screen Shot 2020-08-22 at 12.32.35 pm.png": "/aussielines/static/media/Screen Shot 2020-08-22 at 12.32.35 pm.d161b374.png",
+    "static/media/central-station-2661255__480.jpg": "/aussielines/static/media/central-station-2661255__480.7a32607b.jpg",
+    "static/media/sign blue.jpg": "/aussielines/static/media/sign blue.d0781dfa.jpg",
+    "static/media/stall2.jpg": "/aussielines/static/media/stall2.b4bdb99e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.743e5180.js",
+    "static/js/2.1ce7ce6d.chunk.js",
+    "static/css/main.ea7bfd2a.chunk.css",
+    "static/js/main.e8b097ae.chunk.js"
+  ]
+}
