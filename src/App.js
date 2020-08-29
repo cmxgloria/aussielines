@@ -19,16 +19,14 @@ function App() {
           {/* </header> */}
           <ShopPhotos />
           <Switch>
-            <Route exact path="/" component={HomePage} />
+            <Route exact path="/" component={GridPhotos} />
             <Route path="/special" component={Special} />
             <Route path="/contact" component={Contact} />
             <Route path="/shop" component={GridPhotos} />
           </Switch>
         </div>
       </Router>
-      <div>
-        <GridPhotos />
-      </div>
+      <div>{/* <GridPhotos /> */}</div>
     </div>
   );
 }
