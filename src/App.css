@@ -11,6 +11,22 @@ a {
 * {
   box-sizing: border-box;
 }
+.directory {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.directory img {
+  padding: 20px;
+  width: 650px;
+  height: 500px;
+}
+h1 {
+  margin: 5px auto;
+  padding-bottom: 15px;
+  height: 10px;
+}
 
 /* .App {
   text-align: center;

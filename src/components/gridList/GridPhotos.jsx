@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
   gridList: {
     flexWrap: "nowrap",
     transform: "translateZ(0)",
+    height: "100",
   },
   title: {
     color: theme.palette.primary.blue,
