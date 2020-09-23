@@ -18,7 +18,7 @@ function App() {
           <Header />
           <ShopPhotos />
           <Switch>
-            <Route exact path="/" component={GridPhotos} />
+            {/* <Route exact path="/" component={GridPhotos} /> */}
             <Route path="/special" component={Special} />
             <Route path="/contact" component={Contact} />
             <Route path="/shop" component={GridPhotos} />

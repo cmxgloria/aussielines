@@ -9,6 +9,9 @@ const Header = () => (
       <img src={logo} alt="" />
     </Link>
     <div className="options">
+      <Link className="option" to="/">
+        HOME
+      </Link>
       <Link className="option" to="/shop">
         SHOP
       </Link>
