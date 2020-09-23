@@ -14,9 +14,7 @@ function App() {
     <div>
       <Router>
         <div className="App">
-          {/* <header className="App-header"> */}
           <Header />
-          {/* </header> */}
           <ShopPhotos />
           <Switch>
             <Route exact path="/" component={GridPhotos} />
@@ -26,7 +24,6 @@ function App() {
           </Switch>
         </div>
       </Router>
-      <div>{/* <GridPhotos /> */}</div>
     </div>
   );
 }
