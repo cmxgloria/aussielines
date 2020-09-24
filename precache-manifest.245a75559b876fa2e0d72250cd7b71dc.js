@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89a7f7950a687c678acfd9713a6ad2fa",
+    "revision": "570d55ea1c66cf9b73e906d0c9f4f0ba",
     "url": "/aussielines/index.html"
   },
   {
-    "revision": "99dd81119a1361ea7980",
+    "revision": "c2c3cc966da504f577c2",
     "url": "/aussielines/static/css/main.e432612d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aussielines/static/js/2.fdb8166d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99dd81119a1361ea7980",
-    "url": "/aussielines/static/js/main.89cd1882.chunk.js"
+    "revision": "c2c3cc966da504f577c2",
+    "url": "/aussielines/static/js/main.32a06af1.chunk.js"
   },
   {
     "revision": "315a76e128f0b98c3747",
