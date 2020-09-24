@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edf0d2dfdeb219c6e05152f958b5f22c",
+    "revision": "89a7f7950a687c678acfd9713a6ad2fa",
     "url": "/aussielines/index.html"
   },
   {
-    "revision": "0a4913d823fb084dac12",
-    "url": "/aussielines/static/css/main.3b478347.chunk.css"
+    "revision": "99dd81119a1361ea7980",
+    "url": "/aussielines/static/css/main.e432612d.chunk.css"
   },
   {
-    "revision": "d6ae1dcc741417223d06",
-    "url": "/aussielines/static/js/2.9aaa21e3.chunk.js"
+    "revision": "81d0380a4480adcb14d9",
+    "url": "/aussielines/static/js/2.fdb8166d.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/aussielines/static/js/2.9aaa21e3.chunk.js.LICENSE.txt"
+    "url": "/aussielines/static/js/2.fdb8166d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a4913d823fb084dac12",
-    "url": "/aussielines/static/js/main.6431f40a.chunk.js"
+    "revision": "99dd81119a1361ea7980",
+    "url": "/aussielines/static/js/main.89cd1882.chunk.js"
   },
   {
     "revision": "315a76e128f0b98c3747",
