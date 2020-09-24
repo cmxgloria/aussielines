@@ -20,9 +20,9 @@ function App() {
           <ShopPhotos />
           <Switch>
             <Route exact path="/" component={Directory} />
-            <Route path="/special" component={Special} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/shop" component={GridPhotos} />
+            <Route exact path="/special" component={Special} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/shop" component={GridPhotos} />
           </Switch>
         </div>
       </Router>
