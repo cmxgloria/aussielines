@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact.jsx";
 import ShopPhotos from "./components/shopPhotos/ShopPhotos.jsx";
 // import ShopPage from "./pages/shop/ShopPage.jsx";
 import GridPhotos from "./components/gridList/GridPhotos.jsx";
+import Directory from "./components/directory/directory.jsx";
 import "./App.css";
 
 function App() {
@@ -18,27 +19,13 @@ function App() {
           <Header />
           <ShopPhotos />
           <Switch>
-            {/* <Route exact path="/" component={GridPhotos} /> */}
+            <Route exact path="/" component={Directory} />
             <Route path="/special" component={Special} />
             <Route path="/contact" component={Contact} />
             <Route path="/shop" component={GridPhotos} />
           </Switch>
         </div>
       </Router>
-      <div className="directory">
-        <h1>SPECIAL</h1>
-        <img src="https://i.imgur.com/2LDBmGG.jpg" alt="" />
-        <h1>Aboriginal & Boomerang</h1>
-        <img src="https://i.imgur.com/Ad1Lhor.jpg" alt="" />
-        <h1>Pencil Cases & Coin Purses</h1>
-        <img src="https://i.imgur.com/Qd9kDCq.jpg" alt="" />
-        <h1>Shopping Bags & Backpacks</h1>
-        <img src="https://i.imgur.com/amB6aWj.jpg" alt="" />
-        <h1>Keychains & Magnets</h1>
-        <img src="https://i.imgur.com/uGuUiFb.jpg" alt="" />
-        <h1>Souvenirs Collections</h1>
-        <img src="https://i.imgur.com/XylTbwr.jpg" alt="" />
-      </div>
     </div>
   );
 }
