@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aussielines/static/css/main.e432612d.chunk.css",
-    "main.js": "/aussielines/static/js/main.32a06af1.chunk.js",
-    "main.js.map": "/aussielines/static/js/main.32a06af1.chunk.js.map",
+    "main.css": "/aussielines/static/css/main.af1b7a64.chunk.css",
+    "main.js": "/aussielines/static/js/main.b13cd154.chunk.js",
+    "main.js.map": "/aussielines/static/js/main.b13cd154.chunk.js.map",
     "runtime-main.js": "/aussielines/static/js/runtime-main.743e5180.js",
     "runtime-main.js.map": "/aussielines/static/js/runtime-main.743e5180.js.map",
     "static/js/2.fdb8166d.chunk.js": "/aussielines/static/js/2.fdb8166d.chunk.js",
     "static/js/2.fdb8166d.chunk.js.map": "/aussielines/static/js/2.fdb8166d.chunk.js.map",
     "index.html": "/aussielines/index.html",
-    "precache-manifest.245a75559b876fa2e0d72250cd7b71dc.js": "/aussielines/precache-manifest.245a75559b876fa2e0d72250cd7b71dc.js",
+    "precache-manifest.051308a4fe05785230634009a4e77bfa.js": "/aussielines/precache-manifest.051308a4fe05785230634009a4e77bfa.js",
     "service-worker.js": "/aussielines/service-worker.js",
-    "static/css/main.e432612d.chunk.css.map": "/aussielines/static/css/main.e432612d.chunk.css.map",
+    "static/css/main.af1b7a64.chunk.css.map": "/aussielines/static/css/main.af1b7a64.chunk.css.map",
     "static/js/2.fdb8166d.chunk.js.LICENSE.txt": "/aussielines/static/js/2.fdb8166d.chunk.js.LICENSE.txt",
     "static/media/PLATE4.jpg": "/aussielines/static/media/PLATE4.da98986b.jpg",
     "static/media/Screen Shot 2020-08-22 at 12.21.38 pm.png": "/aussielines/static/media/Screen Shot 2020-08-22 at 12.21.38 pm.e37b33e6.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.743e5180.js",
     "static/js/2.fdb8166d.chunk.js",
-    "static/css/main.e432612d.chunk.css",
-    "static/js/main.32a06af1.chunk.js"
+    "static/css/main.af1b7a64.chunk.css",
+    "static/js/main.b13cd154.chunk.js"
   ]
 }
